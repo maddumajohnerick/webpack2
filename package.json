@@ -1,0 +1,19 @@
+{
+  "name": "webpack2",
+  "version": "1.0.0",
+  "description": "sample webpack boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddumajohnerick/webpack2.git"
+  },
+  "author": "John Erick Madduma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddumajohnerick/webpack2/issues"
+  },
+  "homepage": "https://github.com/maddumajohnerick/webpack2#readme"
+}
