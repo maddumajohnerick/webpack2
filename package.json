@@ -4,7 +4,7 @@
   "description": "sample webpack boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/maddumajohnerick/webpack2/issues"
   },
-  "homepage": "https://github.com/maddumajohnerick/webpack2#readme"
+  "homepage": "https://github.com/maddumajohnerick/webpack2#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.4.0",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.2.0-rc.0"
+  }
 }
