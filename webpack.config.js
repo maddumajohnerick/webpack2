@@ -21,15 +21,15 @@ const config = {
         test: /\.css$/
       },
       {
+        test: /\.(jpe?g|png|gif|svg)$/,
         use: [
           // 'url-loader', // manage the images based on result after compression
           {
             loader: 'url-loader',
-            options: { limit: 40000 } 
-          }
+            options: { limit: 40000 } // if image is greater than 40kb save it separately
+          },
           'image-webpack-loader' // compress the images
         ]
-        test: /\.(jpe?g|png|gif|svg)$/
       }
     ]
   },
