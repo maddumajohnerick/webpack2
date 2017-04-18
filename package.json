@@ -17,14 +17,14 @@
   },
   "homepage": "https://github.com/maddumajohnerick/webpack2#readme",
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^6.4.1",
-    "babel-preset-env": "^1.4.0",
-    "css-loader": "^0.28.0",
-    "extract-text-webpack-plugin": "^2.0.0-beta.4",
-    "image-webpack-loader": "^3.3.0",
-    "style-loader": "^0.16.1",
-    "url-loader": "^0.5.8",
+    "babel-core": "6.24.1",
+    "babel-loader": "6.4.1",
+    "babel-preset-env": "1.4.0",
+    "css-loader": "0.28.0",
+    "extract-text-webpack-plugin": "2.0.0-beta.4",
+    "image-webpack-loader": "3.2.0",
+    "style-loader": "0.16.1",
+    "url-loader": "0.5.8",
     "webpack": "^2.2.0-rc.0"
   }
 }

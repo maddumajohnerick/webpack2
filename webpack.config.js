@@ -26,10 +26,9 @@ const config = {
         use: [
           // 'url-loader', // manage the images based on result after compression
           {
-            loader: 'url-loader',
-            options: { limit: 40000 } // if image is greater than 40kb save it separately
-          }
-          // 'image-webpack-loader' // compress the images
+            loader: 'url-loader?limit=40000', // if image is greater than 40kb save it separately
+          },
+          'image-webpack-loader' // compress the images
         ]
       }
     ]
