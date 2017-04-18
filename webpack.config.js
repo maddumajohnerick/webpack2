@@ -5,7 +5,8 @@ const config = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build'), // where to save the bundle.js
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: 'build/' //
   },
   module: {
     rules: [
@@ -27,8 +28,8 @@ const config = {
           {
             loader: 'url-loader',
             options: { limit: 40000 } // if image is greater than 40kb save it separately
-          },
-          'image-webpack-loader' // compress the images
+          }
+          // 'image-webpack-loader' // compress the images
         ]
       }
     ]
